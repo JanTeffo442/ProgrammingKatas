@@ -1,9 +1,12 @@
-import operator 
-from functools import reduce
+def combinelists(list):
+    
+    list1 = [11, 22, 33]
+    list2 = [1, 2, 3]  
 
-def combine(my_list, your_list): 
-    return reduce(operator.add, zip(my_list, your_list)) 
-      
-my_list = [11, 22, 33] 
-your_list = [1, 2, 3] 
-print(combine(my_list, your_list))
+    listjoin = list1 + list2
+
+    return listjoin
+
+combinedlist = combinelists(list)
+
+print(combinedlist)

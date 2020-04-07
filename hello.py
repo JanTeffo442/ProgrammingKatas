@@ -1,4 +1,6 @@
 def hello():
+
     word = str(input())
-    return word;
+    return word
+    
 print("Hello " + hello())
